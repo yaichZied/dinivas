@@ -6,6 +6,8 @@ branches:
     - master
 node_js:
     - "10"
+before_install:
+    - export NG_CLI_ANALYTICS=ci
 install:
     - npm install
 before_script:
